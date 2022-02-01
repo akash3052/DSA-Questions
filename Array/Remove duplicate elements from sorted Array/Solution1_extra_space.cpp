@@ -9,6 +9,9 @@ public:
                 temp[j++] = a[i];
             }
         }
+        // Store the last element as whether
+        // it is unique or repeated, it hasn't
+        // stored previously
         temp[j++] = a[n-1];
         for(int i=0;i<j;i++){
             a[i] = temp[i];
