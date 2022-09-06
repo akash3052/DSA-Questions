@@ -35,3 +35,10 @@ class Solution
        return path1[i-1];
     }
 };
+
+
+
+//Time Complexity: O(n). The tree is traversed twice, and then path arrays are compared. 
+//Auxiliary Space: O(n). Extra Space for path1 and path2.
+
+
