@@ -1,0 +1,16 @@
+find() and substr() function uses 
+--------------------------
+  link
+  -----
+  https://www.geeksforgeeks.org/string-find-in-cpp/
+
+  https://stackoverflow.com/questions/14265581/parse-split-a-string-in-c-using-string-delimiter-standard-c
+  
+  The function returns the index of the first occurrence of sub-string, if the sub-string is not found it returns string::npos.
+  
+  string s;
+  s.find(delimeter) -> returns the index of first occurence of substring present in "delimeter". If we don't pass anything in 2nd parameter, 
+                       then it will start searching from index 0.
+  s.find(delimeter, pos) -> this will start searching from index "pos" given in 2nd parameter.
+  
+
