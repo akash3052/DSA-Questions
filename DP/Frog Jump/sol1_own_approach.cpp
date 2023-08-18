@@ -5,9 +5,11 @@
 #include <bits/stdc++.h> 
 int solve(int index, int n, vector<int> &heights, vector<int> &dp){
     if(index >= n){
+        // we have gone beyond, so this step will not be considered. Hence, returning INT_MAX.
         return INT_MAX;
     }
     if(index == n-1){
+        // we have reached the nth stairs, hence no more energy required, hence returning 0.
         return 0;
     }
     if(dp[index] != -1){
