@@ -24,3 +24,7 @@ int frogJump(int n, vector<int> &heights)
     // note -> here we are passing n-1 not n.
     return solve(n-1, heights, dp);
 }
+
+
+// TC = O(n)
+// SC = O(n) + O(n) 
