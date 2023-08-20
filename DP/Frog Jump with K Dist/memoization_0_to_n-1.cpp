@@ -29,3 +29,8 @@ int main(){
   vector<int> dp(n,-1);
   cout<< solve(0, k, n, heights, dp)<<endl;
 }
+
+// TC = O(n * k) -> for each value of index, we are running loop for k times.
+// SC = O(n)[recursion stack space) + O(n)[dp array space] -> recursion stack space has been reduced in tabulation
+
+
