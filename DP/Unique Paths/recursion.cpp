@@ -24,6 +24,6 @@ int uniquePaths(int m, int n) {
 
 // Using DP
 // TC = O(m*n)
-// SC = O((m-1)+ (n-1))[dp array size] + O(m*n) [Recursion stack size]
+// SC = O((m-1)+ (n-1)) [Recursion stack size] + O(m*n) [dp array size]
 
 
