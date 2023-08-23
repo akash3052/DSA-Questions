@@ -16,5 +16,9 @@ int minSumPath(vector<vector<int>> &grid) {
     return solve(0, 0, row, col, grid);
 }
 
-// TC = O( 2 ^ (m*n)) 
-// SC = O(m+n)
+// For Recursion
+// TC = O(2 ^ (m+n)) -> for every cell, there are 2 possibilities and there are (m+n) cells in total.
+// SC = O((m-1)+ (n-1))
+
+
+
