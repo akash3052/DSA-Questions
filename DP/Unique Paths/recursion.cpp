@@ -18,6 +18,12 @@ int uniquePaths(int m, int n) {
 	return solve(0, 0, m, n, dp);
 }
 
+// For Recursion
 // TC = O(2 ^ (m+n)) -> for every cell, there are 2 possibilities and there are (m+n) cells in total.
 // SC = O((m-1)+ (n-1))
+
+// Using DP
+// TC = O(m*n)
+// SC = O((m-1)+ (n-1))[dp array size] + O(m*n) [Recursion stack size]
+
 
