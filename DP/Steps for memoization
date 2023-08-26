@@ -1,3 +1,6 @@
 1. Declare Base case
 2. Epress all states in for loop.
 3. Copy the recurence and write.
+
+
+Note : If we are going from 0 to n-1 in memoization, then in tabulation we will go opposite (n-1 to 0). It's a thumb rule.
