@@ -36,10 +36,9 @@ class Solution {
     }
 };
 
-// TC = O(v) + O(v+2*e) = O(v)
-// outer loop runs v times and for each vertex dfs is called.
+// Time Complexity: O(N) + O(V+2E), Where O(N) is for outer loop and 
+// inner loop runs in total a single DFS over entire graph, and we know DFS takes a time of O(V+2E). 
 
-// SC = O(v) + O(v) = O(v)
-// visited array + recursion stack space
+// Space Complexity: O(N) + O(N),Space for recursion stack space and visited array.
 
 
