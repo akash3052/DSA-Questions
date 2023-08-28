@@ -36,4 +36,10 @@ public:
     }
 };
 
+// TC = O(n^2) * 4 = O(n^2), 
+// where O(n^2) is the maxm number of cells for which we can call dfs and for each dfs call we are running loop for 4 times
+// and doing constant operation in that loop
+
+// SC = O(n^2) for visited array.
+
 
