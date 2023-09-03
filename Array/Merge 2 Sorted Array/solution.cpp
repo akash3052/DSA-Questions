@@ -36,4 +36,13 @@ vector < int > sortedArray(vector < int > a, vector < int > b) {
     return unionArr;
 }
 
+// TC = O(m+n).
+// 2nd solutioin, we can use set.(ordered set so that the keys will be in ascending order).
+// In that case, time complexity will be O((m+n)log(m+n))
+
+// SC = O(m+n)
+// we are not using extra space for our algorithm, we are using extra space for returing answer.
+
+
+    
 
