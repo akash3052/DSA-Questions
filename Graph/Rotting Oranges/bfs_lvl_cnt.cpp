@@ -26,6 +26,8 @@ public:
         }
         while(!q.empty()){
             int qsize = q.size();
+            // Note : Below condition is very important, otherwise we will return increased time.
+            // The reason is no. of freshOranges has become 0 but still we are counting total levels which is incorrect.
             if(!freshOranges){
                 return time;
             }
